@@ -215,6 +215,8 @@
 		76F5BD561D2BD7EF005917E5 /* TankExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76F5BD531D2BD7D3005917E5 /* TankExample.cpp */; };
 		76F5BD571D2BD7EF005917E5 /* TankExample.h in Sources */ = {isa = PBXBuildFile; fileRef = 76F5BD541D2BD7D3005917E5 /* TankExample.h */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		939D85FB2A1F544800FB9FE9 /* NTFExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 939D85F92A1F541600FB9FE9 /* NTFExample.cpp */; };
+		939D85FC2A1F544A00FB9FE9 /* NTFExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 939D85F92A1F541600FB9FE9 /* NTFExample.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -407,6 +409,8 @@
 		76F5BD531D2BD7D3005917E5 /* TankExample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TankExample.cpp; sourceTree = "<group>"; };
 		76F5BD541D2BD7D3005917E5 /* TankExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TankExample.h; sourceTree = "<group>"; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		939D85F92A1F541600FB9FE9 /* NTFExample.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTFExample.cpp; sourceTree = "<group>"; };
+		939D85FA2A1F541600FB9FE9 /* NTFExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTFExample.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -572,6 +576,8 @@
 				76AAA3BF1D180F7C00C54FCB /* SpineboyExample.h */,
 				76C893AE236715B8009D8DC8 /* IKExample.cpp */,
 				76C893AF236715B8009D8DC8 /* IKExample.h */,
+				939D85F92A1F541600FB9FE9 /* NTFExample.cpp */,
+				939D85FA2A1F541600FB9FE9 /* NTFExample.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -777,6 +783,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = WDSNS842MX;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "spine-cocos2d-x" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -874,6 +885,7 @@
 				763104D320BC1B5E00927A1E /* ColorTimeline.cpp in Sources */,
 				763104FA20BC1B5E00927A1E /* TransformConstraint.cpp in Sources */,
 				763104CB20BC1B5E00927A1E /* SkeletonBinary.cpp in Sources */,
+				939D85FB2A1F544800FB9FE9 /* NTFExample.cpp in Sources */,
 				76AAA40C1D18106000C54FCB /* AttachmentVertices.cpp in Sources */,
 				76D1BFE02029E35200A0272D /* SkeletonRendererSeparatorExample.cpp in Sources */,
 				763104EF20BC1B5E00927A1E /* IkConstraintTimeline.cpp in Sources */,
@@ -1013,6 +1025,7 @@
 				763105CB20BC1B9700927A1E /* SkeletonJson.cpp in Sources */,
 				763105CC20BC1B9700927A1E /* Skin.cpp in Sources */,
 				763105CD20BC1B9700927A1E /* Slot.cpp in Sources */,
+				939D85FC2A1F544A00FB9FE9 /* NTFExample.cpp in Sources */,
 				763105CE20BC1B9700927A1E /* SlotData.cpp in Sources */,
 				763105CF20BC1B9700927A1E /* SpineObject.cpp in Sources */,
 				763105D020BC1B9700927A1E /* TextureLoader.cpp in Sources */,
@@ -1073,6 +1086,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = WDSNS842MX;
 				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -1092,6 +1106,7 @@
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyanassert.test;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
@@ -1105,6 +1120,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = WDSNS842MX;
 				ENABLE_BITCODE = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1122,6 +1138,7 @@
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyanassert.test;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
