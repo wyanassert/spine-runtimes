@@ -6,7 +6,6 @@
 //
 
 #include "NTFExample.h"
-#include "TankExample.h"
 #include <spine/Extension.h>
 
 USING_NS_CC;
@@ -42,13 +41,12 @@ bool NTFExample::init () {
     
     EventListenerTouchOneByOne* listener = EventListenerTouchOneByOne::create();
     listener->onTouchBegan = [this] (Touch* touch, cocos2d::Event* event) -> bool {
-        if (!skeletonNode->getDebugBonesEnabled()) {
-            skeletonNode->setDebugBonesEnabled(true);
-            skeletonNode->setDebugMeshesEnabled(true);
-        } else if (skeletonNode->getTimeScale() == 1)
-            skeletonNode->setTimeScale(0.3f);
-        else
-            Director::getInstance()->replaceScene(TankExample::scene());
+//        if (!skeletonNode->getDebugBonesEnabled()) {
+//            skeletonNode->setDebugBonesEnabled(true);
+//            skeletonNode->setDebugMeshesEnabled(true);
+//        } else if (skeletonNode->getTimeScale() == 1)
+//            skeletonNode->setTimeScale(0.3f);
+        
         return true;
     };
     _eventDispatcher->addEventListenerWithSceneGraphPriority(listener, this);
