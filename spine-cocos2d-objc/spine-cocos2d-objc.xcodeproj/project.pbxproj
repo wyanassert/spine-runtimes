@@ -483,6 +483,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Craig Hinrichs";
+				TargetAttributes = {
+					9A5D2494170A94DA0030D4DD = {
+						DevelopmentTeam = WDSNS842MX;
+					};
+				};
 			};
 			buildConfigurationList = 9A5D2490170A94DA0030D4DD /* Build configuration list for PBXProject "spine-cocos2d-objc" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -712,6 +717,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = WDSNS842MX;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Resources-ios/Prefix.pch";
@@ -731,6 +737,7 @@
 					"-lsqlite3",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyanassert.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -742,6 +749,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = WDSNS842MX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Resources-ios/Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -760,6 +768,7 @@
 					"-lsqlite3",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyanassert.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
