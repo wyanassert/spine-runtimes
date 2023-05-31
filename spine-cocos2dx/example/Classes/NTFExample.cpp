@@ -28,7 +28,6 @@ bool NTFExample::init () {
 
     skeletonNode = SkeletonAnimation::createWithJsonFile("NFT_1.json", "NFT_1.atlas", 0.7f);
     skeletonNode->setAnimation(0, "room_guitar_right", true);
-//    skeletonNode->addAnimation(1, "gun-grab", false, 2);
     skeletonNode->setTwoColorTint(true);
     
     ntfEffect.setCenterY(200);
@@ -38,6 +37,22 @@ bool NTFExample::init () {
 
     skeletonNode->setPosition(Vec2(_contentSize.width / 2, 150));
     addChild(skeletonNode);
+    
+    for(int i = 0; i < 6; i++)
+    {
+        spine::SkeletonAnimation* skeletonNode = SkeletonAnimation::createWithJsonFile("NFT_1.json", "NFT_1.atlas", 0.7f);
+        skeletonNode->setAnimation(0, "room_guitar_right", true);
+    //    skeletonNode->addAnimation(1, "gun-grab", false, 2);
+        skeletonNode->setTwoColorTint(true);
+
+        ntfEffect.setCenterY(200);
+        swirlTime = 0;
+
+        skeletonNode->setVertexEffect(&ntfEffect);
+
+        skeletonNode->setPosition(Vec2(_contentSize.width / 2 + i * 5, 145 - i * 5));
+        addChild(skeletonNode);
+    }
 
     scheduleUpdate();
     

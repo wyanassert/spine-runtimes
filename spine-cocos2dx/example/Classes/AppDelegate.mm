@@ -34,6 +34,7 @@
 
 #include "IKExample.h"
 #include "NTFExample.h"
+#include "GoblinsExample.h"
 #include <spine/spine-cocos2dx.h>
 #include <spine/Debug.h>
 #include "AppMacros.h"
@@ -106,7 +107,7 @@ bool AppDelegate::applicationDidFinishLaunching () {
 	director->setDisplayStats(true);
 
 	// set FPS. the default value is 1.0/60 if you don't call this
-	director->setAnimationInterval(1.0f / 60);
+	director->setAnimationInterval(2.0f / 60);
 
 	// Set the Debug wrapper extension so we know about memory leaks.
 	SpineExtension::setInstance(&debugExtension);
@@ -114,6 +115,7 @@ bool AppDelegate::applicationDidFinishLaunching () {
 	// create a scene. it's an autorelease object
 	//auto scene = RaptorExample::scene();
 //	auto scene = IKExample::scene();
+//    auto scene = GoblinsExample::scene();
     auto scene = NTFExample::scene();
 
 	// run
@@ -121,8 +123,9 @@ bool AppDelegate::applicationDidFinishLaunching () {
     
 //    WKWebViewConfiguration *webConfiguration = [WKWebViewConfiguration new];
 //    WKWebView *webView = [[WKWebView alloc] initWithFrame:[UIScreen mainScreen].bounds configuration:webConfiguration];
-//    NSString *urlStr = @"https://y.qq.com/m/skelton_frames/index.html?stay_anim=1&ID=80066&Skeleton=skeleton_mfer&Features=skeleton_mfer-body-body-human_a-mfer_summer_longhair_human_1,skeleton_mfer-head-hair-hair_a-mfer_summer_longhair_hair_1,skeleton_mfer-head-eye-eye_a-mfer_summer_longhair_eye_7,skeleton_mfer-head-mouth-mouth_a-mfer_summer_longhair_mouth_3,skeleton_mfer-clothing-top-top_a-mfer_summer_longhair_top_16,skeleton_mfer-clothing-bottom-pants_a-mfer_summer_longhair_pants_1,skeleton_mfer-clothing-shoe-shoe_a-mfer_summer_longhair_shoe_2,skeleton_mfer-prop-guitar-guitar_a-bass";
-//    NSURL *url = [NSURL URLWithString:urlStr];
+//    NSString *urlStr1 = @"https://fastest.y.qq.com/m/skelton_frames/index.html?_tde_id=18021&isTest=1&count=3&debug=1&ID=80066&Skeleton=skeleton_mfer&Features=skeleton_mfer-body-body-human_a-mfer_summer_longhair_human_1,skeleton_mfer-head-hair-hair_a-mfer_summer_longhair_hair_1,skeleton_mfer-head-eye-eye_a-mfer_summer_longhair_eye_7,skeleton_mfer-head-mouth-mouth_a-mfer_summer_longhair_mouth_3,skeleton_mfer-clothing-top-top_a-mfer_summer_longhair_top_16,skeleton_mfer-clothing-bottom-pants_a-mfer_summer_longhair_pants_1,skeleton_mfer-clothing-shoe-shoe_a-mfer_summer_longhair_shoe_2,skeleton_mfer-prop-guitar-guitar_a-bass";
+//    NSString *urlStr2 = @"https://y.qq.com/m/skelton_frames/index.html?stay_anim=1&ID=80066&Skeleton=skeleton_mfer&Features=skeleton_mfer-body-body-human_a-mfer_summer_longhair_human_1,skeleton_mfer-head-hair-hair_a-mfer_summer_longhair_hair_1,skeleton_mfer-head-eye-eye_a-mfer_summer_longhair_eye_7,skeleton_mfer-head-mouth-mouth_a-mfer_summer_longhair_mouth_3,skeleton_mfer-clothing-top-top_a-mfer_summer_longhair_top_16,skeleton_mfer-clothing-bottom-pants_a-mfer_summer_longhair_pants_1,skeleton_mfer-clothing-shoe-shoe_a-mfer_summer_longhair_shoe_2,skeleton_mfer-prop-guitar-guitar_a-bass";
+//    NSURL *url = [NSURL URLWithString:urlStr1];
 //    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
 //    [webView loadRequest:request];
 //    UIWindow* window = [UIApplication sharedApplication].keyWindow;
@@ -130,6 +133,16 @@ bool AppDelegate::applicationDidFinishLaunching () {
 //        window = [[UIApplication sharedApplication].windows objectAtIndex:0];
 //    }
 //    [window addSubview:webView];
+//
+//    NSSet *websiteDataTypes = [WKWebsiteDataStore allWebsiteDataTypes];
+//
+//    NSDate *dateFrom = [NSDate dateWithTimeIntervalSince1970:0];
+//
+//    [[WKWebsiteDataStore defaultDataStore] removeDataOfTypes:websiteDataTypes modifiedSince:dateFrom completionHandler:^{
+//
+//    }];
+    
+    
 
 	return true;
 }
