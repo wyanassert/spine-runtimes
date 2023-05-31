@@ -132,6 +132,11 @@ int /*boolean*/ _clip(spSkeletonClipping* self, float x1, float y1, float x2, fl
 	} else
 		input = self->scratch;
 
+    if (output->capacity > 1000)
+    {
+        int i = 0;
+    }
+    float testValue = *(output->items);
 	spFloatArray_clear(input);
 	spFloatArray_add(input, x1);
 	spFloatArray_add(input, y1);
@@ -249,6 +254,11 @@ void spSkeletonClipping_clipTriangles(spSkeletonClipping* self, float* vertices,
 
 		for (p = 0; p < polygonsCount; p++) {
 			int s = clippedVertices->size;
+            int clipSize = self->scratch->size;
+            if (clipSize > 20)
+            {
+                int ss = 0;
+            }
 			if (_clip(self, x1, y1, x2, y2, x3, y3, polygons[p], clipOutput)) {
 				int ii;
 				float d0, d1, d2, d4, d;

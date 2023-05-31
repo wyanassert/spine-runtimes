@@ -30,7 +30,80 @@
 #include <spine/Array.h>
 #include <spine/extension.h>
 
-_SP_ARRAY_IMPLEMENT_TYPE(spFloatArray, float)
+//_SP_ARRAY_IMPLEMENT_TYPE(spFloatArray, float)
+
+
+spFloatArray* spFloatArray_create(int initialCapacity) {
+    spFloatArray* array = CALLOC(spFloatArray, 1);
+    array->size = 0;
+    array->capacity = initialCapacity;
+    array->items = CALLOC(float, initialCapacity);
+    return array;
+}
+    void spFloatArray_dispose(spFloatArray* self) {
+        FREE(self->items);
+        FREE(self);
+    }
+    void spFloatArray_clear(spFloatArray* self) {
+        self->size = 0;
+    }
+    spFloatArray* spFloatArray_setSize(spFloatArray* self, int newSize) {
+        self->size = newSize;
+        if (self->capacity < newSize) {
+            self->capacity = MAX(8, (int)(self->size * 1.75f));
+            self->items = REALLOC(self->items, float, self->capacity);
+        }
+        return self;
+    }
+    void spFloatArray_ensureCapacity(spFloatArray* self, int newCapacity) {
+        if (self->capacity >= newCapacity) return;
+        self->capacity = newCapacity;
+        self->items = REALLOC(self->items, float, self->capacity);
+    }
+    void spFloatArray_add(spFloatArray* self, float value) {
+        if (self->size == self->capacity) {
+            self->capacity = MAX(8, (int)(self->size * 1.75f));
+            self->items = REALLOC(self->items, float, self->capacity);
+        }
+        self->items[self->size++] = value;
+        if(self->size >= 7310)
+        {
+            int ss = 0;
+        }
+    }
+    void spFloatArray_addAll(spFloatArray* self, spFloatArray* other) {
+        int i = 0;
+        for (; i < other->size; i++) {
+            spFloatArray_add(self, other->items[i]);
+        }
+    }
+    void spFloatArray_addAllValues(spFloatArray* self, float* values, int offset, int count) {
+        int i = offset, n = offset + count;
+        for (; i < n; i++) {
+            spFloatArray_add(self, values[i]);
+        }
+    }
+    void spFloatArray_removeAt(spFloatArray* self, int index) {
+        self->size--;
+        memmove(self->items + index, self->items + index + 1, sizeof(float) * (self->size - index));
+    }
+    int spFloatArray_contains(spFloatArray* self, float value) {
+        float* items = self->items;
+        int i, n;
+        for (i = 0, n = self->size; i < n; i++) {
+            if (items[i] == value) return -1;
+        }
+        return 0;
+    }
+    float spFloatArray_pop(spFloatArray* self) {
+        float item = self->items[--self->size];
+        return item;
+    }
+    float spFloatArray_peek(spFloatArray* self) {
+        return self->items[self->size - 1];
+    }
+
+
 _SP_ARRAY_IMPLEMENT_TYPE(spIntArray, int)
 _SP_ARRAY_IMPLEMENT_TYPE(spShortArray, short)
 _SP_ARRAY_IMPLEMENT_TYPE(spUnsignedShortArray, unsigned short)

@@ -114,9 +114,9 @@ bool AppDelegate::applicationDidFinishLaunching () {
 	
 	// create a scene. it's an autorelease object
 	//auto scene = RaptorExample::scene();
-//	auto scene = IKExample::scene();
+	auto scene = IKExample::scene();
 //    auto scene = GoblinsExample::scene();
-    auto scene = NTFExample::scene();
+//    auto scene = NTFExample::scene();
 
 	// run
 	director->runWithScene(scene);

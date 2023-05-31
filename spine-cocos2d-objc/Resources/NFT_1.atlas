@@ -1,0 +1,473 @@
+
+NFT_1.png
+size: 60,47
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/other/path_a/yinfu_path/yinfu_empty
+  rotate: false
+  xy: 2, 2
+  size: 56, 43
+  orig: 56, 43
+  offset: 0, 0
+  index: -1
+
+NFT_12.png
+size: 345,56
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/other/other_f/waterwave/waterwave
+  rotate: false
+  xy: 2, 2
+  size: 341, 52
+  orig: 341, 52
+  offset: 0, 0
+  index: -1
+
+NFT_13.png
+size: 27,59
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/other/other_f/waterdroplets/droplets
+  rotate: false
+  xy: 2, 2
+  size: 23, 55
+  orig: 23, 55
+  offset: 0, 0
+  index: -1
+
+NFT_14.png
+size: 359,70
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/other/other_f/waterline/waterline
+  rotate: false
+  xy: 2, 2
+  size: 355, 66
+  orig: 355, 66
+  offset: 0, 0
+  index: -1
+
+NFT_15.png
+size: 345,56
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/other/other_f/waterwave2/waterwave2
+  rotate: false
+  xy: 2, 2
+  size: 341, 52
+  orig: 341, 52
+  offset: 0, 0
+  index: -1
+
+NFT_16.png
+size: 359,70
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/other/other_f/waterline2/waterline2
+  rotate: false
+  xy: 2, 2
+  size: 355, 66
+  orig: 355, 66
+  offset: 0, 0
+  index: -1
+
+NFT_17.png
+size: 23,214
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/other/other_a/left_stick/left_stick
+  rotate: false
+  xy: 2, 2
+  size: 19, 210
+  orig: 19, 210
+  offset: 0, 0
+  index: -1
+
+NFT_18.png
+size: 60,47
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/other/caijian_a/front_hair_caijian/front_hair_empty
+  rotate: false
+  xy: 2, 2
+  size: 56, 43
+  orig: 56, 43
+  offset: 0, 0
+  index: -1
+
+NFT_19.png
+size: 149,109
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/other/other_d/left_dumbbel/left_dumbbel
+  rotate: false
+  xy: 2, 2
+  size: 145, 105
+  orig: 145, 105
+  offset: 0, 0
+  index: -1
+
+NFT_110.png
+size: 60,71
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/other/other_c/yinfu/yinfu
+  rotate: false
+  xy: 2, 2
+  size: 56, 67
+  orig: 56, 67
+  offset: 0, 0
+  index: -1
+
+NFT_111.png
+size: 23,214
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/other/other_b/right_stick/right_stick
+  rotate: false
+  xy: 2, 2
+  size: 19, 210
+  orig: 19, 210
+  offset: 0, 0
+  index: -1
+
+NFT_112.png
+size: 149,109
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/other/other_e/right_dumbbel/right_dumbbel
+  rotate: false
+  xy: 2, 2
+  size: 145, 105
+  orig: 145, 105
+  offset: 0, 0
+  index: -1
+
+NFT_113.png
+size: 60,47
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/other/caijian_b/left_sleeves_caijian/left_sleeves_empty
+  rotate: false
+  xy: 2, 2
+  size: 56, 43
+  orig: 56, 43
+  offset: 0, 0
+  index: -1
+
+NFT_114.png
+size: 60,47
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/other/caijian_c/right_sleeves_caijian/right_sleeves_empty
+  rotate: false
+  xy: 2, 2
+  size: 56, 43
+  orig: 56, 43
+  offset: 0, 0
+  index: -1
+
+NFT_115.png
+size: 605,1005
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/guitar/guitar_a/guitar/guitar
+  rotate: false
+  xy: 2, 2
+  size: 601, 1001
+  orig: 601, 1001
+  offset: 0, 0
+  index: -1
+
+NFT_116.png
+size: 605,1005
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+prop/guitar/guitar_a/bass/guitar
+  rotate: false
+  xy: 2, 2
+  size: 601, 1001
+  orig: 601, 1001
+  offset: 0, 0
+  index: -1
+
+NFT_117.png
+size: 488,204
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clothing/top/top_a/top_1/clothes
+  rotate: true
+  xy: 2, 2
+  size: 200, 320
+  orig: 200, 320
+  offset: 0, 0
+  index: -1
+clothing/top/top_a/top_1/left_sleeves
+  rotate: false
+  xy: 324, 2
+  size: 80, 200
+  orig: 80, 200
+  offset: 0, 0
+  index: -1
+clothing/top/top_a/top_1/right_sleeves
+  rotate: false
+  xy: 406, 2
+  size: 80, 200
+  orig: 80, 200
+  offset: 0, 0
+  index: -1
+
+NFT_118.png
+size: 186,204
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clothing/shoe/shoe_a/shoe_1/left_shoe
+  rotate: false
+  xy: 2, 2
+  size: 90, 200
+  orig: 90, 200
+  offset: 0, 0
+  index: -1
+clothing/shoe/shoe_a/shoe_1/right_shoe
+  rotate: false
+  xy: 94, 2
+  size: 90, 200
+  orig: 90, 200
+  offset: 0, 0
+  index: -1
+
+NFT_119.png
+size: 606,304
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clothing/bottom/pants_a/pants_1/left_pants
+  rotate: false
+  xy: 2, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+clothing/bottom/pants_a/pants_1/right_pants
+  rotate: false
+  xy: 304, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+
+NFT_120.png
+size: 605,605
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clothing/bottom/skirt_a/skirt_1/skirt
+  rotate: false
+  xy: 2, 2
+  size: 601, 601
+  orig: 601, 601
+  offset: 0, 0
+  index: -1
+clothing/bottom/skirt_a/skirt_1/skirt_back
+  rotate: false
+  xy: 2, 2
+  size: 601, 601
+  orig: 601, 601
+  offset: 0, 0
+  index: -1
+
+NFT_121.png
+size: 1317,304
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body/body/human_a/human_1/body
+  rotate: true
+  xy: 873, 102
+  size: 200, 320
+  orig: 200, 320
+  offset: 0, 0
+  index: -1
+body/body/human_a/human_1/face
+  rotate: false
+  xy: 606, 37
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+body/body/human_a/human_1/left_ear
+  rotate: true
+  xy: 1195, 222
+  size: 80, 120
+  orig: 80, 120
+  offset: 0, 0
+  index: -1
+body/body/human_a/human_1/left_elbow
+  rotate: true
+  xy: 873, 20
+  size: 80, 200
+  orig: 80, 200
+  offset: 0, 0
+  index: -1
+body/body/human_a/human_1/left_leg
+  rotate: false
+  xy: 2, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+body/body/human_a/human_1/right_ear
+  rotate: true
+  xy: 1195, 140
+  size: 80, 120
+  orig: 80, 120
+  offset: 0, 0
+  index: -1
+body/body/human_a/human_1/right_elbow
+  rotate: true
+  xy: 1075, 20
+  size: 80, 200
+  orig: 80, 200
+  offset: 0, 0
+  index: -1
+body/body/human_a/human_1/right_leg
+  rotate: false
+  xy: 304, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+
+NFT_122.png
+size: 1216,245
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+head/eye/eye_a/eye_1/glasses
+  rotate: false
+  xy: 974, 2
+  size: 240, 241
+  orig: 240, 241
+  offset: 0, 0
+  index: -1
+head/eye/eye_a/eye_1/left_eye
+  rotate: false
+  xy: 2, 2
+  size: 241, 241
+  orig: 241, 241
+  offset: 0, 0
+  index: -1
+head/eye/eye_a/eye_1/left_eyebrow
+  rotate: false
+  xy: 245, 2
+  size: 241, 241
+  orig: 241, 241
+  offset: 0, 0
+  index: -1
+head/eye/eye_a/eye_1/right_eye
+  rotate: false
+  xy: 488, 2
+  size: 241, 241
+  orig: 241, 241
+  offset: 0, 0
+  index: -1
+head/eye/eye_a/eye_1/right_eyebrow
+  rotate: false
+  xy: 731, 2
+  size: 241, 241
+  orig: 241, 241
+  offset: 0, 0
+  index: -1
+
+NFT_123.png
+size: 731,245
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+head/mouth/mouth_a/mouth_1/mask
+  rotate: false
+  xy: 2, 2
+  size: 241, 241
+  orig: 241, 241
+  offset: 0, 0
+  index: -1
+head/mouth/mouth_a/mouth_1/mouth
+  rotate: false
+  xy: 245, 2
+  size: 241, 241
+  orig: 241, 241
+  offset: 0, 0
+  index: -1
+head/mouth/mouth_a/mouth_1/nose
+  rotate: false
+  xy: 488, 2
+  size: 241, 241
+  orig: 241, 241
+  offset: 0, 0
+  index: -1
+
+NFT_124.png
+size: 964,535
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+head/hair/hair_a/hair_1/back_hair
+  rotate: false
+  xy: 535, 269
+  size: 264, 264
+  orig: 264, 264
+  offset: 0, 0
+  index: -1
+head/hair/hair_a/hair_1/back_hat
+  rotate: false
+  xy: 2, 2
+  size: 531, 531
+  orig: 531, 531
+  offset: 0, 0
+  index: -1
+head/hair/hair_a/hair_1/front_hat
+  rotate: false
+  xy: 2, 2
+  size: 531, 531
+  orig: 531, 531
+  offset: 0, 0
+  index: -1
+head/hair/hair_a/hair_1/front_hair
+  rotate: false
+  xy: 535, 3
+  size: 264, 264
+  orig: 264, 264
+  offset: 0, 0
+  index: -1
+head/hair/hair_a/hair_1/left_earring
+  rotate: false
+  xy: 801, 292
+  size: 161, 241
+  orig: 161, 241
+  offset: 0, 0
+  index: -1
+head/hair/hair_a/hair_1/right_earring
+  rotate: false
+  xy: 801, 49
+  size: 161, 241
+  orig: 161, 241
+  offset: 0, 0
+  index: -1

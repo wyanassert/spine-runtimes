@@ -87,6 +87,33 @@
 		76FAC1971E3FA15E001CCC8C /* PointAttachment.c in Sources */ = {isa = PBXBuildFile; fileRef = 76FAC1951E3FA15E001CCC8C /* PointAttachment.c */; };
 		76FB151A1F01413B00C5377F /* VertexEffect.c in Sources */ = {isa = PBXBuildFile; fileRef = 76FB15191F01413B00C5377F /* VertexEffect.c */; };
 		83F1A0EF1986955A001F6B44 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F1A0EE1986955A001F6B44 /* GLKit.framework */; };
+		937F752E2A26F4D600E1AECA /* NFT_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F75142A26F4D500E1AECA /* NFT_15.png */; };
+		937F752F2A26F4D600E1AECA /* NFT_113.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F75152A26F4D500E1AECA /* NFT_113.png */; };
+		937F75302A26F4D600E1AECA /* NFT_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F75162A26F4D500E1AECA /* NFT_1.png */; };
+		937F75312A26F4D600E1AECA /* NFT_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F75172A26F4D500E1AECA /* NFT_16.png */; };
+		937F75322A26F4D600E1AECA /* NFT_124.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F75182A26F4D500E1AECA /* NFT_124.png */; };
+		937F75332A26F4D600E1AECA /* NFT_122.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F75192A26F4D500E1AECA /* NFT_122.png */; };
+		937F75352A26F4D600E1AECA /* NFT_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F751B2A26F4D500E1AECA /* NFT_19.png */; };
+		937F75362A26F4D600E1AECA /* NFT_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F751C2A26F4D500E1AECA /* NFT_120.png */; };
+		937F75372A26F4D600E1AECA /* NFT_121.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F751D2A26F4D500E1AECA /* NFT_121.png */; };
+		937F75382A26F4D600E1AECA /* NFT_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F751E2A26F4D500E1AECA /* NFT_17.png */; };
+		937F75392A26F4D600E1AECA /* NFT_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F751F2A26F4D500E1AECA /* NFT_18.png */; };
+		937F753A2A26F4D600E1AECA /* NFT_118.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F75202A26F4D500E1AECA /* NFT_118.png */; };
+		937F753B2A26F4D600E1AECA /* NFT_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F75212A26F4D500E1AECA /* NFT_12.png */; };
+		937F753C2A26F4D600E1AECA /* NFT_110.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F75222A26F4D500E1AECA /* NFT_110.png */; };
+		937F753D2A26F4D600E1AECA /* NFT_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F75232A26F4D500E1AECA /* NFT_14.png */; };
+		937F753E2A26F4D600E1AECA /* NFT_111.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F75242A26F4D500E1AECA /* NFT_111.png */; };
+		937F753F2A26F4D600E1AECA /* NFT_115.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F75252A26F4D500E1AECA /* NFT_115.png */; };
+		937F75402A26F4D600E1AECA /* NFT_119.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F75262A26F4D500E1AECA /* NFT_119.png */; };
+		937F75412A26F4D600E1AECA /* NFT_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F75272A26F4D500E1AECA /* NFT_13.png */; };
+		937F75422A26F4D600E1AECA /* NFT_1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 937F75282A26F4D500E1AECA /* NFT_1.atlas */; };
+		937F75432A26F4D600E1AECA /* NFT_123.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F75292A26F4D500E1AECA /* NFT_123.png */; };
+		937F75442A26F4D600E1AECA /* NFT_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F752A2A26F4D500E1AECA /* NFT_114.png */; };
+		937F75452A26F4D600E1AECA /* NFT_112.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F752B2A26F4D500E1AECA /* NFT_112.png */; };
+		937F75462A26F4D600E1AECA /* NFT_117.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F752C2A26F4D500E1AECA /* NFT_117.png */; };
+		937F75472A26F4D600E1AECA /* NFT_116.png in Resources */ = {isa = PBXBuildFile; fileRef = 937F752D2A26F4D500E1AECA /* NFT_116.png */; };
+		937F754D2A26F50800E1AECA /* NFTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 937F754C2A26F50800E1AECA /* NFTExample.m */; };
+		937F75502A27211D00E1AECA /* NFT_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 937F754F2A27211D00E1AECA /* NFT_1.json */; };
 		9A5D2499170A94DA0030D4DD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5D2498170A94DA0030D4DD /* QuartzCore.framework */; };
 		9A5D249B170A94DA0030D4DD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5D249A170A94DA0030D4DD /* OpenGLES.framework */; };
 		9A5D249D170A94DA0030D4DD /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5D249C170A94DA0030D4DD /* OpenAL.framework */; };
@@ -231,6 +258,34 @@
 		76FAC1951E3FA15E001CCC8C /* PointAttachment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PointAttachment.c; path = "../spine-c/spine-c/src/spine/PointAttachment.c"; sourceTree = "<group>"; };
 		76FB15191F01413B00C5377F /* VertexEffect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = VertexEffect.c; path = "../spine-c/spine-c/src/spine/VertexEffect.c"; sourceTree = "<group>"; };
 		83F1A0EE1986955A001F6B44 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		937F75142A26F4D500E1AECA /* NFT_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_15.png; path = Resources/NFT_15.png; sourceTree = "<group>"; };
+		937F75152A26F4D500E1AECA /* NFT_113.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_113.png; path = Resources/NFT_113.png; sourceTree = "<group>"; };
+		937F75162A26F4D500E1AECA /* NFT_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_1.png; path = Resources/NFT_1.png; sourceTree = "<group>"; };
+		937F75172A26F4D500E1AECA /* NFT_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_16.png; path = Resources/NFT_16.png; sourceTree = "<group>"; };
+		937F75182A26F4D500E1AECA /* NFT_124.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_124.png; path = Resources/NFT_124.png; sourceTree = "<group>"; };
+		937F75192A26F4D500E1AECA /* NFT_122.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_122.png; path = Resources/NFT_122.png; sourceTree = "<group>"; };
+		937F751B2A26F4D500E1AECA /* NFT_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_19.png; path = Resources/NFT_19.png; sourceTree = "<group>"; };
+		937F751C2A26F4D500E1AECA /* NFT_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_120.png; path = Resources/NFT_120.png; sourceTree = "<group>"; };
+		937F751D2A26F4D500E1AECA /* NFT_121.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_121.png; path = Resources/NFT_121.png; sourceTree = "<group>"; };
+		937F751E2A26F4D500E1AECA /* NFT_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_17.png; path = Resources/NFT_17.png; sourceTree = "<group>"; };
+		937F751F2A26F4D500E1AECA /* NFT_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_18.png; path = Resources/NFT_18.png; sourceTree = "<group>"; };
+		937F75202A26F4D500E1AECA /* NFT_118.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_118.png; path = Resources/NFT_118.png; sourceTree = "<group>"; };
+		937F75212A26F4D500E1AECA /* NFT_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_12.png; path = Resources/NFT_12.png; sourceTree = "<group>"; };
+		937F75222A26F4D500E1AECA /* NFT_110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_110.png; path = Resources/NFT_110.png; sourceTree = "<group>"; };
+		937F75232A26F4D500E1AECA /* NFT_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_14.png; path = Resources/NFT_14.png; sourceTree = "<group>"; };
+		937F75242A26F4D500E1AECA /* NFT_111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_111.png; path = Resources/NFT_111.png; sourceTree = "<group>"; };
+		937F75252A26F4D500E1AECA /* NFT_115.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_115.png; path = Resources/NFT_115.png; sourceTree = "<group>"; };
+		937F75262A26F4D500E1AECA /* NFT_119.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_119.png; path = Resources/NFT_119.png; sourceTree = "<group>"; };
+		937F75272A26F4D500E1AECA /* NFT_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_13.png; path = Resources/NFT_13.png; sourceTree = "<group>"; };
+		937F75282A26F4D500E1AECA /* NFT_1.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NFT_1.atlas; path = Resources/NFT_1.atlas; sourceTree = "<group>"; };
+		937F75292A26F4D500E1AECA /* NFT_123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_123.png; path = Resources/NFT_123.png; sourceTree = "<group>"; };
+		937F752A2A26F4D500E1AECA /* NFT_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_114.png; path = Resources/NFT_114.png; sourceTree = "<group>"; };
+		937F752B2A26F4D500E1AECA /* NFT_112.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_112.png; path = Resources/NFT_112.png; sourceTree = "<group>"; };
+		937F752C2A26F4D500E1AECA /* NFT_117.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_117.png; path = Resources/NFT_117.png; sourceTree = "<group>"; };
+		937F752D2A26F4D500E1AECA /* NFT_116.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NFT_116.png; path = Resources/NFT_116.png; sourceTree = "<group>"; };
+		937F754B2A26F50800E1AECA /* NFTExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFTExample.h; path = example/NFTExample.h; sourceTree = "<group>"; };
+		937F754C2A26F50800E1AECA /* NFTExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFTExample.m; path = example/NFTExample.m; sourceTree = "<group>"; };
+		937F754F2A27211D00E1AECA /* NFT_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = NFT_1.json; path = Resources/NFT_1.json; sourceTree = "<group>"; };
 		9A5D2495170A94DA0030D4DD /* SpineExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpineExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5D2498170A94DA0030D4DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9A5D249A170A94DA0030D4DD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -295,6 +350,8 @@
 				76F5BDAC1D2BDFA2005917E5 /* TankExample.m */,
 				76EE4E541EB36E94000254F4 /* CoinExample.h */,
 				76EE4E551EB36E94000254F4 /* CoinExample.m */,
+				937F754B2A26F50800E1AECA /* NFTExample.h */,
+				937F754C2A26F50800E1AECA /* NFTExample.m */,
 				43C32A07170B10FF004A9460 /* AppDelegate.h */,
 				43C32A08170B10FF004A9460 /* AppDelegate.m */,
 				43C32A05170B0F93004A9460 /* main.m */,
@@ -369,6 +426,32 @@
 		43C32867170B0C7F004A9460 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				937F75282A26F4D500E1AECA /* NFT_1.atlas */,
+				937F754F2A27211D00E1AECA /* NFT_1.json */,
+				937F75162A26F4D500E1AECA /* NFT_1.png */,
+				937F75212A26F4D500E1AECA /* NFT_12.png */,
+				937F75272A26F4D500E1AECA /* NFT_13.png */,
+				937F75232A26F4D500E1AECA /* NFT_14.png */,
+				937F75142A26F4D500E1AECA /* NFT_15.png */,
+				937F75172A26F4D500E1AECA /* NFT_16.png */,
+				937F751E2A26F4D500E1AECA /* NFT_17.png */,
+				937F751F2A26F4D500E1AECA /* NFT_18.png */,
+				937F751B2A26F4D500E1AECA /* NFT_19.png */,
+				937F75222A26F4D500E1AECA /* NFT_110.png */,
+				937F75242A26F4D500E1AECA /* NFT_111.png */,
+				937F752B2A26F4D500E1AECA /* NFT_112.png */,
+				937F75152A26F4D500E1AECA /* NFT_113.png */,
+				937F752A2A26F4D500E1AECA /* NFT_114.png */,
+				937F75252A26F4D500E1AECA /* NFT_115.png */,
+				937F752D2A26F4D500E1AECA /* NFT_116.png */,
+				937F752C2A26F4D500E1AECA /* NFT_117.png */,
+				937F75202A26F4D500E1AECA /* NFT_118.png */,
+				937F75262A26F4D500E1AECA /* NFT_119.png */,
+				937F751C2A26F4D500E1AECA /* NFT_120.png */,
+				937F751D2A26F4D500E1AECA /* NFT_121.png */,
+				937F75192A26F4D500E1AECA /* NFT_122.png */,
+				937F75292A26F4D500E1AECA /* NFT_123.png */,
+				937F75182A26F4D500E1AECA /* NFT_124.png */,
 				76C893BE236728A4009D8DC8 /* spineboy-pro.json */,
 				76EE4E4E1EB36E53000254F4 /* coin.atlas */,
 				76EE4E4F1EB36E53000254F4 /* coin-pro.json */,
@@ -558,23 +641,49 @@
 				43C3287E170B0DBE004A9460 /* Default-Landscape~ipad.png in Resources */,
 				43C3287F170B0DBE004A9460 /* Default.png in Resources */,
 				76F5BDA31D2BDE1C005917E5 /* raptor-pro.json in Resources */,
+				937F753E2A26F4D600E1AECA /* NFT_111.png in Resources */,
 				76EE4E531EB36E53000254F4 /* coin.png in Resources */,
+				937F75432A26F4D600E1AECA /* NFT_123.png in Resources */,
+				937F75502A27211D00E1AECA /* NFT_1.json in Resources */,
+				937F753C2A26F4D600E1AECA /* NFT_110.png in Resources */,
+				937F753A2A26F4D600E1AECA /* NFT_118.png in Resources */,
+				937F752F2A26F4D600E1AECA /* NFT_113.png in Resources */,
+				937F75382A26F4D600E1AECA /* NFT_17.png in Resources */,
 				43C32880170B0DBE004A9460 /* Default@2x.png in Resources */,
 				765A2EF71D7D7A08003FB779 /* goblins.png in Resources */,
 				43C32881170B0DBE004A9460 /* Icon-72.png in Resources */,
 				76F5BDA41D2BDE1C005917E5 /* raptor.png in Resources */,
+				937F75422A26F4D600E1AECA /* NFT_1.atlas in Resources */,
+				937F753F2A26F4D600E1AECA /* NFT_115.png in Resources */,
+				937F753D2A26F4D600E1AECA /* NFT_14.png in Resources */,
+				937F75412A26F4D600E1AECA /* NFT_13.png in Resources */,
+				937F75362A26F4D600E1AECA /* NFT_120.png in Resources */,
+				937F75462A26F4D600E1AECA /* NFT_117.png in Resources */,
+				937F75372A26F4D600E1AECA /* NFT_121.png in Resources */,
 				43C32882170B0DBE004A9460 /* Icon-Small-50.png in Resources */,
 				76EE4E511EB36E53000254F4 /* coin.atlas in Resources */,
+				937F75352A26F4D600E1AECA /* NFT_19.png in Resources */,
+				937F753B2A26F4D600E1AECA /* NFT_12.png in Resources */,
 				76F5BDA21D2BDE1C005917E5 /* raptor.atlas in Resources */,
 				43C32883170B0DBE004A9460 /* Icon-Small.png in Resources */,
 				76C893BF236728A4009D8DC8 /* spineboy-pro.json in Resources */,
+				937F75442A26F4D600E1AECA /* NFT_114.png in Resources */,
 				43C32884170B0DBE004A9460 /* Icon-Small@2x.png in Resources */,
 				43C32885170B0DBE004A9460 /* Icon.png in Resources */,
+				937F752E2A26F4D600E1AECA /* NFT_15.png in Resources */,
+				937F75312A26F4D600E1AECA /* NFT_16.png in Resources */,
+				937F75392A26F4D600E1AECA /* NFT_18.png in Resources */,
+				937F75472A26F4D600E1AECA /* NFT_116.png in Resources */,
 				76F5BDA71D2BDE1C005917E5 /* tank.png in Resources */,
+				937F75452A26F4D600E1AECA /* NFT_112.png in Resources */,
 				43C32886170B0DBE004A9460 /* Icon@2x.png in Resources */,
+				937F75332A26F4D600E1AECA /* NFT_122.png in Resources */,
+				937F75302A26F4D600E1AECA /* NFT_1.png in Resources */,
+				937F75322A26F4D600E1AECA /* NFT_124.png in Resources */,
 				76F5BDA61D2BDE1C005917E5 /* tank-pro.json in Resources */,
 				43C32888170B0DBE004A9460 /* iTunesArtwork in Resources */,
 				43F701101927FBC700CA4038 /* goblins-pro.json in Resources */,
+				937F75402A26F4D600E1AECA /* NFT_119.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,6 +717,7 @@
 				76F28D171DEC810300CDE54D /* AnimationState.c in Sources */,
 				76F28D221DEC810300CDE54D /* extension.c in Sources */,
 				76F28D231DEC810300CDE54D /* IkConstraint.c in Sources */,
+				937F754D2A26F50800E1AECA /* NFTExample.m in Sources */,
 				76BF7E071E66ED9C00485998 /* GLUtils.c in Sources */,
 				76EE4E481EB36DE6000254F4 /* SkeletonClipping.c in Sources */,
 				43C3282F170B0C19004A9460 /* spine-cocos2d-objc.m in Sources */,

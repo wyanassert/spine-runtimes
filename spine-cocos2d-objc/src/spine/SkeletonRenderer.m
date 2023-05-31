@@ -193,6 +193,7 @@ static bool handlerQueued = false;
 	float r = 0, g = 0, b = 0, a = 0;
 	float dr = 0, dg = 0, db = 0, da = _premultipliedAlpha ? 1 : 0;
 	for (int i = 0, n = _skeleton->slotsCount; i < n; i++) {
+        float innerSize = _clipper->scratch->size;
 		spSlot* slot = _skeleton->drawOrder[i];
 		if (!slot->attachment) continue;
 		if (!slot->bone->active) continue;

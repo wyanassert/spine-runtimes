@@ -2,6 +2,8 @@
 #import "cocos2d.h"
 #import "AppDelegate.h"
 #import "IKExample.h"
+#import "NFTExample.h"
+#import "TankExample.h"
 
 @implementation AppController
 
@@ -22,9 +24,12 @@
 //			CCSetupScreenMode: CCScreenModeFixed,
 //			CCSetupScreenOrientation: CCScreenOrientationPortrait,
   			CCSetupShowDebugStats: @YES,
+            CCSetupAnimationInterval: @(2.f/60),
 		}];
     
-    [[CCDirector sharedDirector] runWithScene:[IKExample scene]];
+//    [[CCDirector sharedDirector] runWithScene:[IKExample scene]];
+//    [[CCDirector sharedDirector] runWithScene:[TankExample scene]];
+    [[CCDirector sharedDirector] runWithScene:[NFTExample scene]];
     
     return YES;
 }

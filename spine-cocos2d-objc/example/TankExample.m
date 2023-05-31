@@ -43,7 +43,6 @@
     if (!self) return nil;
     
     skeletonNode = [SkeletonAnimation skeletonWithFile:@"tank-pro.json" atlasFile:@"tank.atlas" scale:0.2f];
-    [skeletonNode setAnimationForTrack:0 name:@"drive" loop:YES];
     
     CGSize windowSize = [[CCDirector sharedDirector] viewSize];
     [skeletonNode setPosition:ccp(windowSize.width / 2, 20)];

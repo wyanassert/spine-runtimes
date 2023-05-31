@@ -61,6 +61,7 @@
 #define SPINE_EXTENSION_H_
 
 #include <spine/dll.h>
+#include <stdlib.h>
 
 /* Required for sprintf and consorts on MSVC */
 #ifdef _MSC_VER

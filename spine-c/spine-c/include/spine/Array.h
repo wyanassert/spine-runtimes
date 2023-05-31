@@ -118,7 +118,28 @@ extern "C" {
 		return self->items[self->size - 1]; \
 	}
 
-_SP_ARRAY_DECLARE_TYPE(spFloatArray, float)
+//_SP_ARRAY_DECLARE_TYPE(spFloatArray, float)
+
+typedef struct spFloatArray
+{
+    int size;
+    int capacity;
+    float* items;
+} spFloatArray;
+
+spFloatArray* spFloatArray_create(int initialCapacity) ;
+void spFloatArray_dispose(spFloatArray* self) ;
+void spFloatArray_clear(spFloatArray* self);
+spFloatArray* spFloatArray_setSize(spFloatArray* self, int newSize);
+void spFloatArray_ensureCapacity(spFloatArray* self, int newCapacity) ;
+void spFloatArray_add(spFloatArray* self, float value);
+void spFloatArray_addAll(spFloatArray* self, spFloatArray* other);
+void spFloatArray_addAllValues(spFloatArray* self, float* values, int offset, int count);
+void spFloatArray_removeAt(spFloatArray* self, int index) ;
+int spFloatArray_contains(spFloatArray* self, float value);
+float spFloatArray_pop(spFloatArray* self) ;
+float spFloatArray_peek(spFloatArray* self);
+
 _SP_ARRAY_DECLARE_TYPE(spIntArray, int)
 _SP_ARRAY_DECLARE_TYPE(spShortArray, short)
 _SP_ARRAY_DECLARE_TYPE(spUnsignedShortArray, unsigned short)
